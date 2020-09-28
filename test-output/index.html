@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Yob-Products">
+              <span class="suite-name border-skipped">Yob-Products</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Yob-Products">
+                    <span>D:\Yob Automation\Dekatlis_assignment\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Yob-Products">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Yob-Products">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Yob-Products">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Yob-Products">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Yob-Products">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Yob-Products">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods,  2 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Yob-Products" class="hide-methods skipped suite-Yob-Products"> (hide)</a> <!-- hide-methods skipped suite-Yob-Products -->
+                      <a href="#" panel-name="suite-Yob-Products" class="show-methods skipped suite-Yob-Products"> (show)</a> <!-- show-methods skipped suite-Yob-Products -->
+                    </span>
+                    <div class="method-list-content skipped suite-Yob-Products">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Yob-Products" title="Bookpillow.BookpillowFail" hash-for-method="BookpillowFailCase">BookpillowFailCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Yob-Products" title="Bookpillow.BookpillowSuccess" hash-for-method="BookpillowSucessCase">BookpillowSucessCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Yob-Products -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Yob-Products" class="panel Yob-Products">
+          <div class="suite-Yob-Products-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Bookpillow.BookpillowSuccess</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BookpillowSucessCase">
+                  </a> <!-- BookpillowSucessCase -->
+                  <span class="method-name">BookpillowSucessCase</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.io.FileNotFoundException: ..\excelfiles\cardDetails_success.xlsx (The system cannot find the path specified)
+Caused by: java.io.FileNotFoundException: ..\excelfiles\cardDetails_success.xlsx (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
+	at Bookpillow.ReadExcelSheet.&lt;init&gt;(ReadExcelSheet.java:20)
+	at Bookpillow.BookpillowSuccess.getDataBy(BookpillowSuccess.java:36)
+	... 22 more
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Yob-Products-class-skipped -->
+          <div class="suite-Yob-Products-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Bookpillow.BookpillowFail</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BookpillowFailCase">
+                  </a> <!-- BookpillowFailCase -->
+                  <span class="method-name">BookpillowFailCase</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.io.FileNotFoundException: ..\excelfiles\cardDetails_failed.xlsx (The system cannot find the path specified)
+Caused by: java.io.FileNotFoundException: ..\excelfiles\cardDetails_failed.xlsx (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
+	at Bookpillow.ReadExcelSheet.&lt;init&gt;(ReadExcelSheet.java:20)
+	at Bookpillow.BookpillowFail.getDataBy(BookpillowFail.java:32)
+	... 22 more
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Yob-Products-class-skipped -->
+        </div> <!-- panel Yob-Products -->
+        <div panel-name="test-xml-Yob-Products" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Yob Automation\Dekatlis_assignment\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;-1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Yob-Products&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Bookpillow.BookpillowSuccess&quot;/&gt;
+      &lt;class name=&quot;Bookpillow.BookpillowFail&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Yob-Products --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Yob-Products" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Yob-Products</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Yob-Products" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Yob-Products</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Yob-Products" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Yob-Products</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Yob-Products');
+function tableData_Yob-Products() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'BookpillowFailCase')
+data.setCell(0, 2, 'Bookpillow.BookpillowFail')
+data.setCell(0, 3, 0);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'BookpillowSucessCase')
+data.setCell(1, 2, 'Bookpillow.BookpillowSuccess')
+data.setCell(1, 3, 0);
+window.suiteTableData['Yob-Products']= { tableData: data, tableDiv: 'times-div-Yob-Products'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-Yob-Products">
+              </div> <!-- times-div-Yob-Products -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Yob-Products" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Yob-Products</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Yob-Products" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Yob-Products" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

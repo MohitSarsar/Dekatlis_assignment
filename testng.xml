@@ -8,8 +8,8 @@
   
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Bookpillow_Success_Failed.BookpillowSuccess"/>
-       <class name="Bookpillow_Success_Failed.BookpillowFail"/>
+      <class name="Bookpillow.BookpillowSuccess"/>
+       <class name="Bookpillow.BookpillowFail"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
